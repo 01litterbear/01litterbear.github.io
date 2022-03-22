@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/03/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第一篇博客文章</title>
+    <url>/2022/03/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="hexo-搭建时出现的问题"><a href="#hexo-搭建时出现的问题" class="headerlink" title="hexo 搭建时出现的问题"></a>hexo 搭建时出现的问题</h1><ol>
+<li>cnpm安装成功了 ; 使用cnpm命令显示 “cnpm不是内部命令”<br>解决方案：<br><a href="https://www.codeprj.com/blog/e019c51.html">重新配置一下环境变量中的路径</a><br><img src="https://www.codeprj.com/image/aHR0cHM6Ly9pbWcyMDIwLmNuYmxvZ3MuY29tL2Jsb2cvMTg4NTA5My8yMDIxMDQvMTg4NTA5My0yMDIxMDQyMTE5NDcxMjU4Ni0yMDk0ODQ4NTU3LnBuZw==.png">  </li>
+<li>express安装问题<br><a href="https://blog.csdn.net/WinstonLau/article/details/79426871">Express的安装可以分为全局安装和本地安装两种</a><br>→ 键入 cnpm install -g express-generator → cnpm install -g express → express –version （OK）  </li>
+<li>这个问题<br><a href="https://blog.csdn.net/qq_38415505/article/details/83687207">hexo ? </a>  </li>
+<li>深入了解_config.yml<br><a href="hexo%E6%A0%B9%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84_config.yml%E9%85%8D%E7%BD%AE%E8%A7%A3%E9%87%8A">_config.yml配置解释</a>  </li>
+<li>本地文件未上传至GitHub<br><a href="https://blog.csdn.net/qq_44807176/article/details/113776893">hexo d → github</a></li>
+</ol>
+<h2 id="插张图片吧"><a href="#插张图片吧" class="headerlink" title="插张图片吧"></a>插张图片吧</h2><p><img src="https://pic2.zhimg.com/v2-6890485c84748900d9dae824b7f7cbb1_r.jpg"></p>
+]]></content>
+      <tags>
+        <tag>web</tag>
+      </tags>
+  </entry>
+</search>
